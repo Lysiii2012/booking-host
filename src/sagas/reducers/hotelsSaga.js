@@ -11,7 +11,7 @@ import {
   fetchDestinationsFailure,
 } from './destinationsReducer';
  
-const API_BASE_URL = 'https://db-roan-nine.vercel.app/api';
+const API_BASE_URL = 'https://booking-host.vercel.app/api';
 
 function* fetchHotelsSaga(action) {
   try {
