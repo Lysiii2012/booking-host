@@ -1,0 +1,98 @@
+.css-19a9hqk-MuiFormControl-root {
+  display: block;
+}
+.css-1cprn2g-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  width: 100%;
+}
+.block {
+  display: block;
+}
+.heightBotton {
+  height: 100%;
+}
+.maxWidth {
+  max-width: 300px;
+}
+div.calendarGroup {
+  flex-direction: row;
+  display: flex;
+  gap: 30px;
+}
+.styles_secondTitle__XXFWs {
+  margin-top: 50px;
+}
+.secondTitle span {
+  color: #f3a000;
+}
+.formContainer {
+  display: flex;
+  gap: 30px;
+}
+.selectFilter {
+  max-width: 300px;
+}
+@media screen and (max-width: 1199px) {
+  .formContainer {
+    gap: 20px;
+  }
+  div.calendarGroup {
+    gap: 20px;
+  }
+  .selectFilter {
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .formContainer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  div.selectFilter {
+    max-width: 100%;
+    width: 50%;
+  }
+  .calendarContainer {
+    width: 45%;
+  }
+  .personContainer {
+    width: 30%;
+  }
+  .personContainer div {
+    width: 100%;
+    max-width: 100% !important;
+  }
+  .heightBotton {
+    max-width: 100%;
+    width: 100%;
+  }
+  .submitButton {
+    max-width: 32%;
+    width: 100%;
+  }
+  .submitButton button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .formContainer {
+    gap: 10px;
+  }
+  div.calendarGroup {
+    gap: 10px;
+  }
+  .fontStyle label,
+  .fontStyle input,
+  .fontStyle {
+    font-size: 13px !important;
+  }
+  div.selectFilter {
+    width: 40%;
+  }
+  .calendarContainer {
+    width: 55%;
+  }
+  .fieldForm > div {
+    padding: 14px 14px !important;
+  }
+}

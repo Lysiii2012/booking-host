@@ -1,0 +1,29 @@
+.cartItem {
+  width: 100%;
+}
+.cartContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+@media screen and (max-width: 840px) {
+  .cartContainer {
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 575px) {
+  .cartItem > button > img {
+    height: 140px !important;
+  }
+  .cartItem h6 {
+    line-height: 120%;
+    font-size: 18px;
+  }
+  .cartMain {
+    padding: 16px 8px;
+  }
+  .cartContainer {
+    gap: 20px 10px;
+  }
+}

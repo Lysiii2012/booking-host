@@ -1,0 +1,21 @@
+.Logo {
+  display: block;
+  max-width: 200px;
+}
+.headerBackground {
+  background: #fff;
+}
+div .burgerBtn {
+  background: #fba802;
+}
+.Main {
+  margin-top: 70px;
+}
+@media screen and (max-width: 767px) {
+  .Logo {
+    max-width: 150px;
+  }
+  .Main {
+    margin-top: 40px;
+  }
+}
